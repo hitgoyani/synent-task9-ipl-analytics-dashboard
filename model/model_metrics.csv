@@ -1,0 +1,4 @@
+split,model,accuracy,precision,recall,f1,roc_auc,brier
+Validation,Logistic Regression,0.7534,0.7968,0.6145,0.6939,0.8245,0.1862
+Validation,Random Forest,0.7825,0.7906,0.7096,0.7479,0.8446,0.1595
+Test,Random Forest,0.7867,0.9133,0.6827,0.7813,0.8933,0.146

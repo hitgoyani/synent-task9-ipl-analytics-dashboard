@@ -1,0 +1,53 @@
+
+<style>
+  table { border-collapse: collapse; font-family: sans-serif; font-size: 14px; }
+  th, td { border: 1px solid #ccc; padding: 8px 14px; text-align: center; }
+  th { background: #254AA5; color: white; }
+  tr:nth-child(even) { background: #f4f6ff; }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>split</th>
+      <th>model</th>
+      <th>accuracy</th>
+      <th>precision</th>
+      <th>recall</th>
+      <th>f1</th>
+      <th>roc_auc</th>
+      <th>brier</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Validation</td>
+      <td>Logistic Regression</td>
+      <td>0.7534</td>
+      <td>0.7968</td>
+      <td>0.6145</td>
+      <td>0.6939</td>
+      <td>0.8245</td>
+      <td>0.1862</td>
+    </tr>
+    <tr>
+      <td>Validation</td>
+      <td>Random Forest</td>
+      <td>0.7825</td>
+      <td>0.7906</td>
+      <td>0.7096</td>
+      <td>0.7479</td>
+      <td>0.8446</td>
+      <td>0.1595</td>
+    </tr>
+    <tr>
+      <td>Test</td>
+      <td>Random Forest</td>
+      <td>0.7867</td>
+      <td>0.9133</td>
+      <td>0.6827</td>
+      <td>0.7813</td>
+      <td>0.8933</td>
+      <td>0.1460</td>
+    </tr>
+  </tbody>
+</table>
